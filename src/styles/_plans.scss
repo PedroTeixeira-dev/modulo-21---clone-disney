@@ -22,6 +22,8 @@
             max-width: 380px;
             width: 100%;
 
+
+
             &:nth-child(2){
                 background-image: url(/dist/images/fundo_combo_plus.png);
                 background-repeat:no-repeat ;
@@ -30,6 +32,12 @@
 
             img {
                 height:83px ;
+
+                @media (max-width: 768px) {
+                    display: block;
+                    height: auto;
+                    width: 100%;
+                }
             }
 
             strong {

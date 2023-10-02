@@ -31,9 +31,9 @@
         justify-content: center;
 
         @media (max-width:768px){
-            white-space: nowrap;
+            text-wrap: nowrap;
             overflow-x: scroll;
-            padding-left: 58px;
+            padding-left: 70px;
         }
 
         &__button {
